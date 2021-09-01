@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    height: 700px;
+    width: 1440px;
+    position: relative;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.circles .c1,
+.circles .c2{
+    position: absolute;
+}
+
+.c1{
+    top: -45.4%;
+    left:-5.2%;
+    width: 750px;
+}
+
+.c2{
+    bottom: -85%;
+    right: -10%;
+    width: 900px;
+}
+
+@media only screen and (max-width: 375px){
+    .c1{
+        top: -60%;
+        left: -145%;
+        
+    }
+    
+    .c2{
+        bottom: -75%;
+        right: -182%;
+    }
+
+}
+ 
+.card{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-main{
+    margin-top: 52px; 
+    background-color: #fff;
+    
+}
+
+.card-top{
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 140px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.img-container{
+    height: 96px;
+    width: 96px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translate(127px,92px); 
+}
+
+.img-container img{
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+}
+
+.name{
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 25px 0px 5px 0px;
+}
+
+.name span{
+    color: #000;
+    font-weight: 700;
+}
+
+.location{
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    padding: 5px 0px 20px 0px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.bottom-content{
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.text1{
+    font-weight: 700;
+}
+
+.text2{
+    font-size: 12px;
+    font-weight: 400;
+    color:hsl(0, 0%, 59%); 
+}
+
+
+
+
